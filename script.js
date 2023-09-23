@@ -21,7 +21,7 @@ function calculateBMI() {
     } else if (bmi < 29) {
         category = "High Normal";
     
-    }else (bmi < 30) {
+    }else {
         category = "Overweight/Obese";
     } 
 
