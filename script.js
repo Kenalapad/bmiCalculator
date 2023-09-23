@@ -20,9 +20,10 @@ function calculateBMI() {
         category = "Normal weight";
     } else if (bmi < 29) {
         category = "High Normal";
-    } else {
+    
+    }else {
         category = "Overweight/Obese";
-    }
+    } 
 
     resultDiv.innerHTML = "Your BMI is " + bmi.toFixed(2) + " (" + category + ")";
 
