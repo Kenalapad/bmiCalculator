@@ -18,7 +18,7 @@ function calculateBMI() {
         category = "Underweight";
     } else if (bmi < 25) {
         category = "Normal weight";
-    } else if (bmi < 29) {
+    } else if (bmi < 28) {
         category = "High Normal";
     
     }else {
